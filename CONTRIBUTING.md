@@ -12,21 +12,93 @@ Use `git remote add upstream <original-repo-url>` to add the original repository
 ## Feedback, Bug Reports, Issues - How to open issues?
 If you have any feedback, bug reports, feature request or ideas, feel free to [open an issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the project's repository. We love issues! ;D
 Please, try not to duplicate issues and always try to give enough context in the issues that you open.
+You could use some of the issues templates to make better structured issues with relevant labels.
 
 ## Claiming an Issue
-All of the issues on this repo are open to contributors! If you see an open issue you would like to work on, please comment on the issue you may assigned to it.
+All of the issues on this repo are open to contributors! If you see an open issue you would like to work on, please comment on the issue so that you may get assigned to it.
 
 > NOTE: Assigned issues that have not had any activity in 2 weeks will be unassigned.
 
 If an issue is already assigned, please look for another issue to contribute to, or open an issue that you could work on and adds value to the project. We use labels to help categorise issues:
 - `good first issue` - These issues require minimal familiarity with our codebase. Please reserve these for first-time contributors.
 - `help wanted` - These issues are open to any contributors.
-- `maintainer only` - These issues are locked to project maintainers/collaborators. Pull requests on these issues will not be accepted from outside contributors.
+- `staff only` - These issues are locked to project maintainers/collaborators. Pull requests on these issues will not be accepted from outside contributors.
+
+## Working on your issue
+This project follows a certain development and contribution pattern([github-flow](https://docs.github.com/en/github/getting-started-with-github/github-flow)). If you have any confussion at any step in the process, refer to [Github docs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests) and feel free to comment on your assigned issue if you have any questions, doubts or need any help. (Do note that it might take some time to get help on the issues. It is highly suggested, that you ask help on [EddieHub's Everyone Helps Everyone forum](https://github.com/EddieHubCommunity/support/discussions/categories/q-a) or [freeCodeCamp's forum](https://forum.freecodecamp.org/), if you would prefer a quicker help response)
 
 
-## Commit Message Guidelines
+### Syncing your fork with the project
+Before starting any work, it is highly recommended that you ensure that your forked version of the repo is up to date. If you set the upstream as mentioned in [Setting Up The Project](#setting-up-the-project), run these commands in your terminal (with the terminal pointed at the root directory of your local files):
 
-##
+- Switch to the `main` branch:
+  ```rb
+  git checkout main
+  ```
+- Get the current state of the original repo, without pulling down the changes to your local machine:
+  ```css
+  git fetch upstream
+  ```
+- Reset the state of your local files to match the current state of the original repo:
+  ```rb
+  git reset --hard upstream/main
+  ```
+- Force the changes to your forked repo on github (thus making it match the original):
+  ```css
+  git push -f
+  ```
+> NOTE: Before you do the above, keep in mind that you will lose any changes you are currently working on. Do this with care.
+
+**If you are working on small changes directly on Github's UI**, you could also consider [using the `Fetch Upstream` button on Github's UI](https://twitter.com/i/status/1390382527588798477)
+
+### Creating a new branch
+Before making code changes, it would be great and more manageable for you and the maintainers, if you create a new branch and make changes in that branch. It's always a good idea to avoid committing changes directly to your `main` branch - this keeps it clean and avoids errors when updating (above).
+You could use this command to create and switch to a new branch -
+```rb
+git checkout -b <branchname> 
+```
+(Alternatively, you could also make a branch on github's UI and use `git fetch` and `git checkout <branch-name>` to switch to the created branch)
+
+Branch names should follow a convention of `type/issue/description` where:
+
+- `type` is the nature of the changes (eg. `feat` for a new feature, or `docs` for documentation update). This should match the [scope of the related issue](https://www.conventionalcommits.org/en/v1.0.0/#summary).
+- `issue` is the number for the related issue you're addressing.
+- `description` is a brief description of your changes, such as update-contribs for updating the contributing guidelines.
+
+Example - `docs/3/update=contribs`, when working on docs to update contributors for issue #3
+
+After this, you could start working on your code :D
+
+### Commit Message Guidelines
+Now you are free to work on your code! When you are satisfied with your changes, you can commit them with `git commit -s -m "message"`, where:
+
+- `-s` flag signs the commit, to verify the connection with your GitHub account.
+- `-m` flag sets up the commit message.
+- `message` is the commit message: a brief (50 character max) message describing what the commit changes.
+
+While writing the commit message, kindly try to be brief(if you want to add more context, you can add a description by adding another `-m "some description"` tag to the command) and try to write messages in present tense(like- `docs: add link to coc`, instead of `docs: added link to coc`)
+
+We prefer to follow a certain commit message styling format in order to make the commits easily readable, by people as well as automations. You could refer to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) for more information about the format.
+
+
+All commit messages should follow this format- `<type>(optional scope): <description>`
+(The scope can be skipped, in order to make the commit message more succint)
+Examples-
+```
+docs: update project links
+feat: set up project
+feat(deploy): deployment config
+fix: fix website crash bug
+```
+**Type** - The type could be one of the following:
+- `fix`: bug patches, typo and lint corrections
+- `feat`: introduce new features to the codebase
+- `docs`: for documentation and README/CONTRIBUTING changes
+- `refactor`: code change that refactors the code
+- `chore`: project config, maintainance
+
+
+## Submitting a Pull Request
 
 
 
