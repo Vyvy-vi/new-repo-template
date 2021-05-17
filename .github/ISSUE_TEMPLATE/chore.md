@@ -3,7 +3,7 @@ name: Chore
 about: For requesting chores, such as cleaning up code.
 title: "[CHORE]"
 labels: "🤖 aspect: dx, 🚦 status: awaiting triage"
-assignees: nhcarrigan
+assignees: Vyvy-vi
 ---
 
 # Chore Request
