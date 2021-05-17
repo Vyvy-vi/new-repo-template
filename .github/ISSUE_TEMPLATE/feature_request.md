@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: "[FEAT]"
-labels: "✨ goal: improvement"
+labels: "✨ goal: improvement, ⭐ goal: addition"
 assignees: "nhcarrigan"
 ---
 
