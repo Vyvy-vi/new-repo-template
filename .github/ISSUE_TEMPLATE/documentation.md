@@ -3,7 +3,7 @@ name: Documentation
 about: Request an update to invalid/outdated documentation.
 title: "[DOC] "
 labels: "📄 aspect: text"
-assignees: nhcarrigan
+assignees: ''
 ---
 
 # Incorrect Documentation
