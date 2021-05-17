@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: "[FEAT]"
 labels: "✨ goal: improvement, ⭐ goal: addition"
-assignees: "nhcarrigan"
+assignees: ""
 ---
 
 # Feature Request
