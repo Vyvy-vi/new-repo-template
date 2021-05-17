@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us address an error.
 title: "[BUG]"
 labels: "🛠 goal: fix"
-assignees: nhcarrigan
+assignees: Vyvy-vi
 ---
 
 # Bug Report
