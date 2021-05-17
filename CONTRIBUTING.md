@@ -97,9 +97,29 @@ fix: fix website crash bug
 - `refactor`: code change that refactors the code
 - `chore`: project config, maintainance
 
-
 ## Submitting a Pull Request
+Once you have all of your changes made and committed, you can push them to your forked repository! Use `git push -u origin <branchname>`, where:
 
+- `-u` tells `git` to set the upstream (see below)
+- `origin` tells `git` to push to your fork
+- `branchname` tells `git` to push to a branch - this MUST match the name of the branch you created locally.
 
+> NOTE: By setting the upstream, any subsequent push commands can be done with git push, and it will be pushed to the same branch.
 
+Now you can [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)! You should see a quick option to do so appear at the top of your repository on GitHub. Click the "`Pull Request`" button to have GitHub automatically set up the pull request.
+
+First, change the title of the pull request to match your branch name (following the conventions above!). Then, follow the instructions in the preset Pull Request template (make sure to complete any steps listed!).
+
+Congratulations! You've submitted your first pull request! It will be reviewed as quickly as possible, so keep an eye out for comments, approvals (or requested changes).
+
+## Contributing in other ways
+If you aren't comfortable with the codebase, or would like to contribute in other ways, we have options for that!
+We like and appreciate good contributions of any kind!
+
+- Documentation Updates: You are always welcome to update our documentation (like this file!) if you see any typos or anything that can be clarified, go on ahead and open an issue and a Pull Request!
+- Feature Requests: If you have ideas for new features or improvements, feel free to open an issue!
+- Arts/graphics: If you would like to make artistic contributions to the project, feel free to open an issue or contact a maintainer regarding this. We like good graphics for repository banners, or graphics that can be featured in the application.
+- Bug Reports: We rely on our users to help identify bugs - if you see something wrong, please let us know with an issue!
+- Dropping reviews: If you want, you could also contribute by reviewing pull requests. (If you aren't familiar with the codebase, you could still drop reviews on documentation updates)
+- Legal Advice: If you are someone with legal knowledge/experience, you could contribute to the project by maybe going through the [CODE OF CONDUCT](./CODE_OF_CONDUCT.md) and Privacy or Usage Policies. Help in this area is really really appreciated.
 
