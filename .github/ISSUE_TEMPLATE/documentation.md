@@ -1,8 +1,8 @@
 ---
 name: Documentation
 about: Request an update to invalid/outdated documentation.
-title: "[DOC]"
-labels: "🚦 status: awaiting triage"
+title: "[DOC] "
+labels: "📄 aspect: text"
 assignees: nhcarrigan
 ---
 
