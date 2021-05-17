@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us address an error.
 title: "[BUG]"
-labels: "🚦 status: awaiting triage"
+labels: "🛠 goal: fix"
 assignees: nhcarrigan
 ---
 
