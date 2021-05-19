@@ -1,7 +1,7 @@
 # Contributing
-Thank you for showing interest in this project! We appreciate and encourage any and all contributions to the project, however, do keep in mind that it takes some time to get responses on issues and reviews on PRs. Before contributing, have a look at the [CODE of CONDUCT](./CODE_OF_CONDUCT.md) and try to comply by those guidelines.
+Thank you for showing interest in this project! We appreciate and encourage any and all contributions to the project. However, do keep in mind that it takes some time to get responses on issues and reviews on PRs. Before contributing, have a look at the [CODE of CONDUCT](./CODE_OF_CONDUCT.md) and try to comply with those guidelines.
 
-If you are new to contributing to projects on github, this project follows a certain pattern of development and contributing - [github flow](https://docs.github.com/en/github/getting-started-with-github/github-flow). You could learn more about how to use Github on [Github Labs](https://lab.github.com/) and through the [Github docs](https://docs.github.com/en/github/getting-started-with-github/)
+If you are new to contributing to projects on GitHub, this project follows a certain pattern of development and contributing - [github flow](https://docs.github.com/en/github/getting-started-with-github/github-flow). You could learn more about how to use Github on [Github Labs](https://lab.github.com/) and through the [Github docs](https://docs.github.com/en/github/getting-started-with-github/)
 
 Please ensure all pull requests and contributions comply with the [Developer Certificate of Origin](https://developercertificate.org/).
 
@@ -11,7 +11,7 @@ Use `git remote add upstream <original-repo-url>` to add the original repository
 
 ## Feedback, Bug Reports, Issues - How to open issues?
 If you have any feedback, bug reports, feature request or ideas, feel free to [open an issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the project's repository. We love issues! ;D
-Please, try not to duplicate issues and always try to give enough context in the issues that you open.
+Please try not to duplicate issues and always try to give enough context in the issues that you open.
 You could use some of the issues templates to make better structured issues with relevant labels.
 
 ## Claiming an Issue
@@ -25,7 +25,7 @@ If an issue is already assigned, please look for another issue to contribute to,
 - `staff only` - These issues are locked to project maintainers/collaborators. Pull requests on these issues will not be accepted from outside contributors.
 
 ## Working on your issue
-This project follows a certain development and contribution pattern([github-flow](https://docs.github.com/en/github/getting-started-with-github/github-flow)). If you have any confussion at any step in the process, refer to [Github docs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests) and feel free to comment on your assigned issue if you have any questions, doubts or need any help. (Do note that it might take some time to get help on the issues. It is highly suggested, that you ask help on [EddieHub's Everyone Helps Everyone forum](https://github.com/EddieHubCommunity/support/discussions/categories/q-a) or [freeCodeCamp's forum](https://forum.freecodecamp.org/), if you would prefer a quicker help response)
+This project follows a certain development and contribution pattern([github-flow](https://docs.github.com/en/github/getting-started-with-github/github-flow)). If you have any confusion at any step in the process, refer to the [Github docs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests). Feel free to comment on your assigned issue if you have any questions, doubts or need any help. (Do note that it might take some time to get help on the issues. It is highly suggested that you ask for help on [EddieHub's Everyone Helps Everyone forum](https://github.com/EddieHubCommunity/support/discussions/categories/q-a) or [freeCodeCamp's forum](https://forum.freecodecamp.org/) if you would prefer a quicker help response)
 
 
 ### Syncing your fork with the project
@@ -52,7 +52,7 @@ Before starting any work, it is highly recommended that you ensure that your for
 **If you are working on small changes directly on Github's UI**, you could also consider [using the `Fetch Upstream` button on Github's UI](https://twitter.com/i/status/1390382527588798477)
 
 ### Creating a new branch
-Before making code changes, it would be great and more manageable for you and the maintainers, if you create a new branch and make changes in that branch. It's always a good idea to avoid committing changes directly to your `main` branch - this keeps it clean and avoids errors when updating (above).
+Before making code changes, it would be best if you create a new branch and make changes in that branch. It's always a good idea to avoid committing changes directly to your `main` branch - this keeps it clean and avoids errors when updating (above).
 You could use this command to create and switch to a new branch -
 ```rb
 git checkout -b <branchname> 
@@ -76,9 +76,9 @@ Now you are free to work on your code! When you are satisfied with your changes,
 - `-m` flag sets up the commit message.
 - `message` is the commit message: a brief (50 character max) message describing what the commit changes.
 
-While writing the commit message, kindly try to be brief(if you want to add more context, you can add a description by adding another `-m "some description"` tag to the command) and try to write messages in present tense(like- `docs: add link to coc`, instead of `docs: added link to coc`)
+While writing the commit message, please try to be brief (if you want to add more context, you can add a description by adding another `-m "some description"` tag to the command) and try to write messages in present tense (like `docs: add link to coc`, instead of `docs: added link to coc`)
 
-We prefer to follow a certain commit message styling format in order to make the commits easily readable, by people as well as automations. You could refer to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) for more information about the format.
+We prefer to follow a certain commit message styling format in order to make the commits easily readable by people as well as automation. You could refer to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) for more information about the format.
 
 
 All commit messages should follow this format- `<type>(optional scope): <description>`
@@ -104,19 +104,19 @@ Once you have all of your changes made and committed, you can push them to your 
 - `origin` tells `git` to push to your fork
 - `branchname` tells `git` to push to a branch - this MUST match the name of the branch you created locally.
 
-> NOTE: By setting the upstream, any subsequent push commands can be done with git push, and it will be pushed to the same branch.
+> NOTE: By setting the upstream, any subsequent push commands can be done with `git push`, and it will be pushed to the same branch.
 
 Now you can [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)! You should see a quick option to do so appear at the top of your repository on GitHub. Click the "`Pull Request`" button to have GitHub automatically set up the pull request.
 
 First, change the title of the pull request to match your branch name (following the conventions above!). Then, follow the instructions in the preset Pull Request template (make sure to complete any steps listed!).
 
-Congratulations! You've submitted your first pull request! It will be reviewed as quickly as possible, so keep an eye out for comments, approvals (or requested changes).
+Congratulations! You've submitted your first pull request! It will be reviewed as quickly as possible, so keep an eye out for comments, approvals, or requested changes.
 
 ## Contributing in other ways
 If you aren't comfortable with the codebase, or would like to contribute in other ways, we have options for that!
 We like and appreciate good contributions of any kind!
 
-- Documentation Updates: You are always welcome to update our documentation (like this file!) if you see any typos or anything that can be clarified, go on ahead and open an issue and a Pull Request!
+- Documentation Updates: You are always welcome to update our documentation (like this file). If you see any typos or anything that can be clarified, go on ahead and open an issue and a Pull Request!
 - Feature Requests: If you have ideas for new features or improvements, feel free to open an issue!
 - Arts/graphics: If you would like to make artistic contributions to the project, feel free to open an issue or contact a maintainer regarding this. We like good graphics for repository banners, or graphics that can be featured in the application.
 - Bug Reports: We rely on our users to help identify bugs - if you see something wrong, please let us know with an issue!
